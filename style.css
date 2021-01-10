@@ -1,0 +1,31 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/*side container look*/
+.side {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+}
+
+/*look of side when no mouse over it*/
+.side a {
+  padding: 6px 6px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #818181;
+}
+
+/*when mouse is over side*/
+.side a:hover {
+  color: red;
+}
+
+/*main text in the right*/
+.main {
+  margin-left: 200px; 
+}
